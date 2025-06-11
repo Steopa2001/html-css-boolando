@@ -112,22 +112,13 @@ main {
 }
 
 
-
-
-
-
-/* .foot-info {
-  margin: 0 auto;
-  max-width: 915px;
-  background-color: red;
-  height: 100px;
+.position-relative-foot {
+  position: relative;
+  left: 780px;
 }
 
-.foot-info .info-span {
-  margin-top: 5px;
-  font-size: 10px;
+.icon-foot {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
 }
-
-.foot-info span {
-  color: white;
-} */
