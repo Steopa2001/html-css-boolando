@@ -15,13 +15,18 @@
   display: flex;
   justify-content: space-evenly;
   color: white;
+  align-items: center;
 }
 
  .text-banner img {
   width: 100px;
-  height: 25px;
+  height: 23px;
 }
 
-.icon {
-  
+.text-information span {
+  margin: 0 2px;
+}
+
+.icon i{
+  margin: 0 2px;
 }
