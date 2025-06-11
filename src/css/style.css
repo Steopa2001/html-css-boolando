@@ -12,6 +12,7 @@
   padding: 12px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .text-banner {
@@ -51,10 +52,6 @@
 .line-through {
   text-decoration: line-through;
 }
-
-/* .j-f-center {
-  justify-content: center;
-} */
 
 
 /* MAIN */
@@ -121,4 +118,27 @@ main {
   display: flex;
   justify-content: space-evenly;
   font-size: 15px;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.sconto {
+  padding: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+  bottom: 80px;
 }
