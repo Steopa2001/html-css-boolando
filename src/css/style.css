@@ -38,6 +38,19 @@
 
 /* UTILITY */
 
+.uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
 
 /* .j-f-center {
   justify-content: center;
@@ -58,6 +71,8 @@ main {
  justify-content: center;
  gap: 20px;
  padding: 0 185px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
 }
 
 
@@ -73,3 +88,5 @@ main {
 .card img {
   width: 100%;
 }
+
+
