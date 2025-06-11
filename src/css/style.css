@@ -90,3 +90,44 @@ main {
 }
 
 
+/* FOOTER  */
+
+.container-footer {
+  max-width: 1600px;
+  height: 100px;
+  background-color: #1A1A1A;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.position-relative {
+  position: relative;
+  left: 305px;
+}
+
+.info-span {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+
+
+
+
+
+/* .foot-info {
+  margin: 0 auto;
+  max-width: 915px;
+  background-color: red;
+  height: 100px;
+}
+
+.foot-info .info-span {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.foot-info span {
+  color: white;
+} */
