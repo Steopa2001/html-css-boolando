@@ -156,6 +156,35 @@ main {
   display: block;
 }
 
+.label {
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  bottom: 350px;
+  left: 256px;
+}
+
+/* .front-icon {
+  display: block;
+  color: black;
+}
+
+.front-icon {
+  display: none;
+  color: red;
+}
+
+.label:hover .front-icon {
+  display: none;
+  color: red;
+}
+
+
+.label:hover .back-icon {
+  display: block;
+  color: black;
+} */
+
 
 
 /* FOOTER  */
