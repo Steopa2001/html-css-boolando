@@ -13,7 +13,12 @@
   position: fixed;
   width: 100%;
   z-index: 1;
+  -webkit-box-shadow: 0px 11px 11px -2px #BCBCBC;
+  -moz-box-shadow: 0px 11px 11px -2px #BCBCBC;
+  -o-box-shadow: 0px 11px 11px -2px #BCBCBC;
+   box-shadow: 0px 11px 11px -2px #BCBCBC;
 }
+
 
 .text-banner {
   display: flex;
@@ -25,13 +30,16 @@
  .text-banner img {
   width: 100px;
   height: 23px;
+  cursor: pointer;
 }
 
 .text-information span {
+  cursor: pointer;
   margin: 0 2px;
 }
 
 .icon i{
+  cursor: pointer;
   margin: 0 2px;
 }
 
@@ -132,6 +140,24 @@ main {
 }
 
 
+.front-img {
+  display: block;
+}
+
+.back-img {
+  display: none;
+}
+
+.animation:hover .front-img {
+  display: none;
+}
+
+.animation:hover .back-img {
+  display: block;
+}
+
+
+
 /* FOOTER  */
 
 .container-footer {
@@ -141,5 +167,9 @@ main {
   color: white;
   display: flex;
   align-items: center;
+}
+
+.icon-foot i{
+  cursor: pointer;
 }
 
