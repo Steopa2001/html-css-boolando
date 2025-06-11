@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.banner {
+  background-color: #FF6900;
+  max-width: 1600px;
+  padding: 12px;
+}
+
+.text-banner {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+ .text-banner img {
+  width: 100px;
+  height: 25px;
+}
+
+.icon {
+  
+}
