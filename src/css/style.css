@@ -60,13 +60,16 @@ main {
  padding: 0 185px;
 }
 
+
+
 .col-33 {
   width: calc(100% / 3 - 20px);
-  /* width: calc(100% / 3); */
-  background-color: gold;
-  height: 500px;
 }
 
 .border {
   border: 1px solid black;
+}
+
+.card img {
+  width: 100%;
 }
