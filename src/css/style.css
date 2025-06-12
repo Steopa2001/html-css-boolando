@@ -158,10 +158,15 @@ main {
 
 .label {
   background-color: white;
-  padding: 10px;
+  padding: 8px;
   position: relative;
   bottom: 350px;
   left: 256px;
+  cursor: pointer;
+}
+
+.label:hover .heart {
+  color: red;
 }
 
 /* .front-icon {
