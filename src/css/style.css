@@ -177,30 +177,6 @@ main {
   cursor: pointer;
 }
 
-.label:hover .heart {
-  color: red;
-}
-
-/* .front-icon {
-  display: block;
-  color: black;
-}
-
-.front-icon {
-  display: none;
-  color: red;
-}
-
-.label:hover .front-icon {
-  display: none;
-  color: red;
-}
-
-
-.label:hover .back-icon {
-  display: block;
-  color: black;
-} */
 
 
 
