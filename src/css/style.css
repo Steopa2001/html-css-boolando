@@ -184,14 +184,13 @@ main {
 
 .container-footer {
   max-width: 1600px;
-  height: 100px;
   background-color: #1A1A1A;
   color: white;
   display: flex;
   align-items: center;
+  padding: 30px 0;
 }
 
 .icon-foot i{
   cursor: pointer;
 }
-
