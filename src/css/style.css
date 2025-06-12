@@ -38,9 +38,20 @@
   margin: 0 2px;
 }
 
+.text-information span a{
+  text-decoration: none;
+  color: white;
+}
+
+
 .icon i{
   cursor: pointer;
   margin: 0 2px;
+}
+
+.icon a{
+  text-decoration: none;
+  color: white;
 }
 
 
